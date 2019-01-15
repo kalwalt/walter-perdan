@@ -22,7 +22,9 @@ sass:
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
-plugins: ''
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 # set some common post defaults
 defaults:
   -
